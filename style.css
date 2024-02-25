@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url(bg-repeat.jpg);
+    background-size: 7vh;
+}
+
+h1 {
+    text-align: center;
+    color: #FCFCFC;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 5vh;
+    height: 94vh;
+
+    .texto {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 340px;
+        height: 378px;
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 900;
+        }
+    }
+
+    .formulario {
+        background-color: rgba(255, 255, 255, 0.751);
+        width: 340px;
+        height: 378px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+
+        div {
+            width: 340px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+
+            input {
+                border: 1px solid black;
+                border-radius: 3px;
+                width: 75%;
+                font-size: 15px;
+                font-weight: 700;
+                height: 35px;
+                padding-left: 10px;
+                -moz-appearance: textfield;
+                appearance: textfield;
+            }
+
+            input[type="number"]::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            textarea {
+
+                border: 1px solid black;
+                border-radius: 3px;
+                width: 75%;
+                font-size: 15px;
+                font-weight: 700;
+                height: 35px;
+                padding: 5px 0 0 10px;
+                resize: none;
+
+            }
+        }
+
+        span {
+            position: relative;
+            bottom: 2%;
+            left: -17%;
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.81);
+        }
+
+        .enviar {
+            width: 298.01px;
+            height: 41.13px;
+            background-color: #3CCC87;
+            color: white;
+            border: 0px;
+        }
+
+        .mensagem {
+            height: 100px;
+        }
+    }
+}
+
+.mensagem-erro {
+    color: red;
+    font-size: 8px;
+    margin-top: 2px;
+}
+
+.erro {
+    border: 2px solid red !important;
+}
+
+.preenchido {
+    border: 2px solid green !important;
+
+}
