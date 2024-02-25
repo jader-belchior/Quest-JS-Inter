@@ -1,0 +1,19 @@
+@media screen and (max-width: 750px) {
+
+    h1{
+        margin-top: 25px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .texto {
+        max-height: 200px;
+    }
+
+}
