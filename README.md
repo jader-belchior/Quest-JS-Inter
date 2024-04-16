@@ -1,1 +1,1 @@
-Quest de elaboração de formulário no módulo de JS intermediário, pronto para revisão.
+Quest de elaboração de formulário no módulo de JS intermediário, revisado e aprovado
